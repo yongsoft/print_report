@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Printer Page Count Report</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid black; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .chart-container { width: 80%; margin: auto; }
+        .button-container { text-align: center; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Printer Page Count Report</h1>
+
+    <div class="button-container">
+        <button onclick="switchData('net_increase')">Net Increase</button>
+        <button onclick="switchData('total_page_count')">Total Page Count</button>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Net Increase</th>
+                <th>Total Page Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td>2025-02-16</td>
+                    <td>2</td>
+                    <td>10394</td>
+                </tr>
+            
+                <tr>
+                    <td>2025-02-17</td>
+                    <td>0</td>
+                    <td>10394</td>
+                </tr>
+            
+                <tr>
+                    <td>2025-02-18</td>
+                    <td>0</td>
+                    <td>10394</td>
+                </tr>
+            
+                <tr>
+                    <td>2025-02-19</td>
+                    <td>21</td>
+                    <td>10415</td>
+                </tr>
+            
+                <tr>
+                    <td>2025-02-20</td>
+                    <td>0</td>
+                    <td>10416</td>
+                </tr>
+            
+                <tr>
+                    <td>2025-02-21</td>
+                    <td>0</td>
+                    <td>10416</td>
+                </tr>
+            
+                <tr>
+                    <td>2025-02-22</td>
+                    <td>14</td>
+                    <td>10431</td>
+                </tr>
+            
+                <tr>
+                    <td>2025-02-23</td>
+                    <td>18</td>
+                    <td>10449</td>
+                </tr>
+            
+        </tbody>
+    </table>
+
+    <script>
+    var data = [{'date': '2025-02-16', 'total_page_count': 10394, 'net_increase': 2}, {'date': '2025-02-17', 'total_page_count': 10394, 'net_increase': 0}, {'date': '2025-02-18', 'total_page_count': 10394, 'net_increase': 0}, {'date': '2025-02-19', 'total_page_count': 10415, 'net_increase': 21}, {'date': '2025-02-20', 'total_page_count': 10416, 'net_increase': 0}, {'date': '2025-02-21', 'total_page_count': 10416, 'net_increase': 0}, {'date': '2025-02-22', 'total_page_count': 10431, 'net_increase': 14}, {'date': '2025-02-23', 'total_page_count': 10449, 'net_increase': 18}];
+    var currentData = 'net_increase';
+
+    function prepareChartData(data, dataKey) {
+        const labels = data.map(item => item.date);
+        const values = data.map(item => item[dataKey]);
+        return {
+            labels: labels,
+            datasets: [{
+                label: dataKey.replace('_', ' ').toUpperCase(),
+                data: values,
+                backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        };
+    }
+
+    function createChart(chartData) {
+        const ctx = document.getElementById('myChart').getContext('2d');
+        if (window.myChartInstance) {
+            window.myChartInstance.destroy();
+        }
+        window.myChartInstance = new Chart(ctx, {
+            type: 'bar',
+            data: chartData,
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    }
+
+    function switchData(dataKey) {
+        currentData = dataKey;
+        const chartData = prepareChartData(data, dataKey);
+        createChart(chartData);
+    }
+
+    // Initial chart setup
+    switchData(currentData);
+    </script>
+</body>
+</html>

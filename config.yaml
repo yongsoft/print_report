@@ -1,0 +1,19 @@
+printer:
+  ip_address: "10.1.1.6"  # Replace with actual printer IP
+  port: 161
+  community_string: "public"
+  timeout: 5
+
+logging:
+  enabled: true
+  directory: "logs"
+  level: "INFO"
+  max_days: 30
+
+csv_file_name: "printer_page_counts.csv"
+
+report:
+  output_dir: "reports"
+  format: "html"
+  template: "templates/report_template.html"
+  output_file: "printer_report.html"
