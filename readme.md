@@ -3,7 +3,7 @@
 A Python-based utility for monitoring printer page counts via SNMP, tracking usage over time, and generating HTML reports.
 
 Curently We have tested the application with HP Smart Tank 51x Series. 
-An example of generated report can be find : reports/printer_report.html
+An example of generated report can be found : reports/printer_report.html
 
 ## Features
 
