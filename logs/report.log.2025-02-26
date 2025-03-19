@@ -1,0 +1,6 @@
+2025-02-26 15:08:49,656 - ERROR - Query failed: No SNMP response received before timeout
+2025-02-26 15:08:49,659 - INFO - 成功写入 2025-02-26 的数据
+2025-02-26 15:09:58,537 - INFO - Data for 2025-02-26 already exists, skipping...
+2025-02-26 15:16:19,733 - INFO - HTML report generated successfully at '/Users/yong/Dev/print_report/reports/printer_report.html'
+2025-02-26 23:59:07,398 - ERROR - Query failed: No SNMP response received before timeout
+2025-02-26 23:59:07,401 - INFO - Successfully wrote data for 2025-02-26

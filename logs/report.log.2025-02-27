@@ -1,0 +1,34 @@
+2025-02-27 12:52:27,906 - INFO - HTML report generated successfully at '/Users/yong/Dev/print_report/reports/printer_report.html'
+2025-02-27 12:53:50,168 - ERROR - Query failed: No SNMP response received before timeout
+2025-02-27 12:53:50,170 - INFO - Successfully wrote data for 2025-02-27
+2025-02-27 12:54:05,495 - INFO - HTML report generated successfully at '/Users/yong/Dev/print_report/reports/printer_report.html'
+2025-02-27 18:06:59,922 - INFO - Data for 2025-02-27 already exists, skipping...
+2025-02-27 18:09:46,440 - ERROR - Query failed: No SNMP response received before timeout
+2025-02-27 18:09:46,442 - INFO - Successfully wrote data for 2025-02-27
+2025-02-27 18:11:15,770 - ERROR - Query failed: No SNMP response received before timeout
+2025-02-27 18:11:15,774 - INFO - Successfully wrote data for 2025-02-27
+2025-02-27 18:13:10,345 - ERROR - Query failed: No SNMP response received before timeout
+2025-02-27 18:13:10,347 - INFO - Successfully wrote data for 2025-02-27
+2025-02-27 18:13:10,347 - INFO - Using previous page count from 2025-02-26: 10454
+2025-02-27 18:14:55,731 - ERROR - Query failed: No SNMP response received before timeout
+2025-02-27 18:14:55,733 - INFO - Successfully wrote data for 2025-02-27
+2025-02-27 18:14:55,733 - INFO - Using previous page count from 2025-02-27: 10454
+2025-02-27 18:15:59,257 - ERROR - Query failed: No SNMP response received before timeout
+2025-02-27 18:15:59,260 - INFO - Successfully wrote data for 2025-02-27
+2025-02-27 18:15:59,260 - INFO - Using previous page count from 2025-02-27: 10454
+2025-02-27 18:16:31,734 - ERROR - Query failed: No SNMP response received before timeout
+2025-02-27 18:16:31,737 - INFO - Successfully wrote data for 2025-02-27
+2025-02-27 18:16:31,737 - INFO - Using previous page count from 2025-02-27: 10454
+2025-02-27 19:22:54,965 - ERROR - Query failed: No SNMP response received before timeout
+2025-02-27 19:22:54,967 - INFO - Successfully wrote data for 2025-02-27
+2025-02-27 19:22:54,967 - INFO - Using previous page count from 2025-02-27: 10454
+2025-02-27 19:25:29,607 - ERROR - Query failed: No SNMP response received before timeout
+2025-02-27 19:25:29,610 - INFO - Successfully wrote data for 2025-02-27
+2025-02-27 19:25:29,610 - INFO - Using previous page count from 2025-02-27: 10454
+2025-02-27 19:28:06,250 - ERROR - SNMP connectivity test failed: No SNMP response received before timeout
+2025-02-27 19:28:06,251 - ERROR - Failed to connect to printer at 192.168.1.100:161
+2025-02-27 19:30:04,645 - INFO - Successfully wrote data for 2025-02-27
+2025-02-27 19:30:04,645 - INFO - Print page count: 10472, Net increase: 18
+2025-02-27 19:30:47,474 - INFO - HTML report generated successfully at '/Users/yong/Dev/print_report/reports/printer_report.html'
+2025-02-27 23:59:02,552 - INFO - Successfully wrote data for 2025-02-27
+2025-02-27 23:59:02,552 - INFO - Print page count: 10478, Net increase: 6

@@ -1,0 +1,33 @@
+2025-03-18 00:01:00,956 - INFO - HTML report generated successfully at '/Users/yong/Dev/print_report/reports/printer_report.html'
+2025-03-18 21:08:32,035 - ERROR - SNMP connectivity test failed: Timeout
+2025-03-18 21:08:32,035 - ERROR - SNMP connectivity test failed: Timeout
+2025-03-18 21:08:32,051 - ERROR - SNMP connectivity test failed: Timeout
+2025-03-18 21:08:32,051 - ERROR - SNMP connectivity test failed: Timeout
+2025-03-18 21:08:32,059 - ERROR - Error: CSV file '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmprfucgwsw/tmppsvs9nia/non_existent_file.csv' not found.
+2025-03-18 21:08:32,059 - ERROR - Error: CSV file '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmprfucgwsw/tmppsvs9nia/non_existent_file.csv' not found.
+2025-03-18 21:08:32,059 - ERROR - Error: CSV file '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmprfucgwsw/tmppsvs9nia/non_existent_file.csv' not found.
+2025-03-18 21:08:32,059 - ERROR - Error: CSV file '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmprfucgwsw/tmppsvs9nia/non_existent_file.csv' not found.
+2025-03-18 21:08:32,060 - INFO - HTML report generated successfully at '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmprfucgwsw/tmp9scgc6o8/test_printer_report.html'
+2025-03-18 21:08:32,060 - INFO - HTML report generated successfully at '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmprfucgwsw/tmp9scgc6o8/test_printer_report.html'
+2025-03-18 21:13:05,705 - ERROR - SNMP connectivity test failed: Timeout
+2025-03-18 21:13:05,705 - ERROR - SNMP connectivity test failed: Timeout
+2025-03-18 21:13:05,720 - ERROR - SNMP connectivity test failed: Timeout
+2025-03-18 21:13:05,720 - ERROR - SNMP connectivity test failed: Timeout
+2025-03-18 21:13:05,727 - ERROR - Error: CSV file '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmpkf_2qb1d/tmpexwoivup/non_existent_file.csv' not found.
+2025-03-18 21:13:05,727 - ERROR - Error: CSV file '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmpkf_2qb1d/tmpexwoivup/non_existent_file.csv' not found.
+2025-03-18 21:13:05,727 - ERROR - Error: CSV file '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmpkf_2qb1d/tmpexwoivup/non_existent_file.csv' not found.
+2025-03-18 21:13:05,727 - ERROR - Error: CSV file '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmpkf_2qb1d/tmpexwoivup/non_existent_file.csv' not found.
+2025-03-18 21:13:05,728 - INFO - HTML report generated successfully at '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmpkf_2qb1d/tmp6w3pemjn/test_printer_report.html'
+2025-03-18 21:13:05,728 - INFO - HTML report generated successfully at '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmpkf_2qb1d/tmp6w3pemjn/test_printer_report.html'
+2025-03-18 21:13:21,516 - ERROR - SNMP connectivity test failed: Timeout
+2025-03-18 21:13:21,516 - ERROR - SNMP connectivity test failed: Timeout
+2025-03-18 21:13:21,532 - ERROR - SNMP connectivity test failed: Timeout
+2025-03-18 21:13:21,532 - ERROR - SNMP connectivity test failed: Timeout
+2025-03-18 21:13:21,538 - ERROR - Error: CSV file '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmpqbz11cyh/tmpp2nagp2s/non_existent_file.csv' not found.
+2025-03-18 21:13:21,538 - ERROR - Error: CSV file '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmpqbz11cyh/tmpp2nagp2s/non_existent_file.csv' not found.
+2025-03-18 21:13:21,538 - ERROR - Error: CSV file '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmpqbz11cyh/tmpp2nagp2s/non_existent_file.csv' not found.
+2025-03-18 21:13:21,538 - ERROR - Error: CSV file '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmpqbz11cyh/tmpp2nagp2s/non_existent_file.csv' not found.
+2025-03-18 21:13:21,539 - INFO - HTML report generated successfully at '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmpqbz11cyh/tmpeiz_0j3p/test_printer_report.html'
+2025-03-18 21:13:21,539 - INFO - HTML report generated successfully at '/var/folders/52/z472545n0s94y1zj_q5zwmmw0000gn/T/tmpqbz11cyh/tmpeiz_0j3p/test_printer_report.html'
+2025-03-18 23:59:01,595 - INFO - Successfully wrote data for 2025-03-18
+2025-03-18 23:59:01,596 - INFO - Print page count: 10565, Net increase: 6

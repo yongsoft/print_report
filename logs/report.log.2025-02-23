@@ -1,0 +1,11 @@
+2025-02-23 20:36:16,616 - INFO - HTML report generated successfully at '/Users/yong/Dev/print_report/printer_report.html'
+2025-02-23 21:39:08,130 - ERROR - An unexpected error occurred: name 'write_page_count' is not defined
+2025-02-23 21:40:21,042 - ERROR - An unexpected error occurred: name 'write_page_count' is not defined
+2025-02-23 21:41:21,960 - ERROR - An unexpected error occurred: name 'write_page_count' is not defined
+2025-02-23 21:41:45,735 - ERROR - An unexpected error occurred: name 'write_page_count' is not defined
+2025-02-23 21:43:45,326 - ERROR - An unexpected error occurred: name 'write_page_count' is not defined
+2025-02-23 21:49:36,237 - INFO - 成功写入 2025-02-23 的数据
+2025-02-23 21:49:36,237 - INFO - Print page count: 10449, Net increase: 18
+2025-02-23 21:49:36,242 - WARNING - 发现缺失日期：2025-02-21，已自动补充
+2025-02-23 21:50:39,229 - INFO - HTML report generated successfully at '/Users/yong/Dev/print_report/printer_report.html'
+2025-02-23 23:59:00,844 - INFO - Data for 2025-02-23 already exists, skipping...
