@@ -1,8 +1,9 @@
 # Printer Usage Report
 
 A Python-based utility for monitoring printer page counts via SNMP, tracking usage over time, and generating HTML reports.
-Curently tested with HP Smart Tank 51x Series. 
 
+Curently We have tested the application with HP Smart Tank 51x Series. 
+An example of generated report can be find : reports/printer_report.html
 
 ## Features
 
@@ -111,4 +112,4 @@ Example cron entry (runs daily at 11:59 PM):
 
 ## License
 
-MIT
+MIT License. 
